@@ -42,9 +42,9 @@ const SignUpForm = () => {
 					autoComplete='off'
 				 	onChange={(event) => setPassword(event.target.value)}
 				/>
-				<button type='submit'><b>Sign Up</b></button>
+				<button type='submit'><b>Sign Up</b></button> <br/>
+				<span> If you aready have an account <Link className='Form_Link' to={ LoginRoute } > click here </Link></span>
 			</form>
-			<span>If you aready have an account <Link className='Form_Link' to={ LoginRoute } > click here </Link></span>
 		</div>
 		)
 }

@@ -42,9 +42,9 @@ const Login = () => {
 					autoComplete='off'
 					onChange={ (event) => setPassword(event.target.value) }
 				/>
-				<button type='submit'><b>Login</b></button>
+				<button type='submit'><b>Login</b></button> <br/>
+				<span> <Link className='Form_Link' to={ SignUpRoute } >Sign Up</Link> here if you haven't already</span>
 			</form>
-			<span> <Link className='Form_Link' to={ SignUpRoute } >Sign Up</Link> here if you haven't already</span>
 		</div>
 		)
 }

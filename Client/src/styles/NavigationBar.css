@@ -16,3 +16,10 @@ a {
 .SignOut {
 	cursor: pointer;
 }
+
+ul {
+	display: flex;
+	max-width: 200px;
+	list-style: none;
+	justify-content: space-evenly;
+}
